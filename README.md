@@ -1,29 +1,80 @@
 # Predict-the-Introverts-from-the-Extroverts-Playground-Series---Season-5-Episode-7
 
-Overview
-Welcome to the 2025 Kaggle Playground Series! We plan to continue in the spirit of previous playgrounds, providing interesting and approachable datasets for our community to practice their machine learning skills, and anticipate a competition each month.
+# 🧠 Introvert vs Extrovert Personality Prediction  
+*A Kaggle Playground Series - July 2025 Competition*
 
-Your Goal: Your objective is to predict whether a person is an Introvert or Extrovert, given their social behavior and personality traits.
+## 📌 Overview
 
-Start
+This project is part of the **Kaggle Playground Series (July 2025)** aimed at practicing machine learning skills using approachable and interesting datasets.
 
-21 days ago
-Close
-10 days to go
-Evaluation
-Submissions are evaluated using Accuracy Score between the predicted value and the observed target.
+> 🧑‍🤝‍🧑 **Goal:** Predict whether a person is an **Introvert** or an **Extrovert** based on social behavior and personality traits.
 
-Submission File
-For each id in the test set, you must predict the target Personality. The file should contain a header and have the following format:
+---
 
-id,Personality
-18524,Extrovert
-18525,Introvert
-18526,Introvert
-etc.
-Timeline
-Start Date - June 30, 2025
-Entry Deadline - Same as the Final Submission Deadline
-Team Merger Deadline - Same as the Final Submission Deadline
-Final Submission Deadline - July 31, 2025
-All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
+## 📅 Timeline
+
+- **Start Date:** June 30, 2025  
+- **Final Submission Deadline:** July 31, 2025 (11:59 PM UTC)  
+- **Evaluation Metric:** Accuracy Score
+
+---
+
+## 📂 Dataset Information
+
+The dataset includes:
+- `id`: Unique identifier for each entry.
+- Various social behavior and personality trait features.
+- `Personality`: The target label (Introvert or Extrovert) in training data.
+
+### 🔍 Sample Submission Format
+
+
+---
+
+## 🧰 Tools & Techniques Used
+
+- **Language:** Python  
+- **Libraries:**  
+  - `pandas`, `numpy` for data handling  
+  - `matplotlib`, `seaborn` for EDA  
+  - `scikit-learn`, `XGBoost`, `LightGBM`, `CatBoost` for modeling  
+- **Techniques:**  
+  - Handling missing data  
+  - Feature engineering & encoding  
+  - Hyperparameter tuning  
+  - Cross-validation  
+
+---
+
+## 📈 Model Performance
+
+| Model               | Accuracy |
+|---------------------|----------|
+| Logistic Regression | 0.81     |
+| Random Forest       | 0.85     |
+| XGBoost             | 0.87     |
+| LightGBM            | 0.88     |
+
+---
+
+## 📌 Submission
+
+Final submission format:
+- CSV file with two columns: `id`, `Personality`
+- No missing values or duplicates
+- Submitted via Kaggle competition portal
+
+---
+
+## 🔗 Links
+
+- 🏆 [Kaggle Competition Page](https://www.kaggle.com/competitions/playground-series-s3e7)
+- 📊 [My Kaggle Notebook](https://www.kaggle.com/code/udaykanchanpally/predicting-with-interactive-eda-and-boosting)
+- 💼 [My GitHub Portfolio](https://github.com/udaykanchanpally)
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to Kaggle for organizing this learning-friendly competition and providing the dataset.
+
