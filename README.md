@@ -50,10 +50,10 @@ The dataset includes:
 
 | Model               | Accuracy |
 |---------------------|----------|
-| Logistic Regression | 0.81     |
-| Random Forest       | 0.85     |
-| XGBoost             | 0.87     |
-| LightGBM            | 0.88     |
+| Logistic Regression | 0.974     |
+| Random Forest       | 0.972     |
+| XGBoost             | 0.9745    |
+| LightGBM            | 0.9723     |
 
 ---
 
