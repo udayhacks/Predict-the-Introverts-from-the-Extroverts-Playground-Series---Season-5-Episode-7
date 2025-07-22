@@ -70,7 +70,8 @@ Final submission format:
 
 - 🏆 [Kaggle Competition Page](https://www.kaggle.com/competitions/playground-series-s5e7)
 - 📊 [My Kaggle Notebook](https://www.kaggle.com/code/udaykanchanpally/predicting-with-interactive-eda-and-boosting)
-- 💼 [My GitHub Portfolio](https://github.com/udaykanchanpally)
+- 💼 [My GitHub Portfolio](https://github.com/udayhacks)
+
 
 ---
 
